@@ -1,0 +1,19 @@
+select, .controls button {
+        height: 55px !important;
+        font-size: 1.1rem !important;
+    }
+
+    #reader {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 10px 0 !important;
+    }
+
+    #reader video {
+        object-fit: cover !important;
+    }
+
+    h1, h2 {
+        font-size: 1.3rem;
+    }
+}
