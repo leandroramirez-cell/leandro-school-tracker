@@ -1,0 +1,19 @@
+ <section class="lista-ausentes">
+        <h2>ESTUDANTES NÃO LOCALIZADOS:</h2>
+        <ul id="lista-nomes-pendentes">
+            <!-- Nomes aparecem aqui via JS -->
+        </ul>
+    </section>
+
+    <footer>
+        <button id="btn-stop" disabled>CONCLUIR E GERAR RELATÓRIO</button>
+        <button id="btn-voltar" onclick="voltarNormalidade()">VOLTAR À NORMALIDADE</button>
+    </footer>
+<script type="module">
+if (sessionStorage.getItem('logado') !== 'true') {
+    window.location.replace("index.html");
+}
+    </script>
+<script type="module" src="emergencia.js"></script>
+</body>
+</html>
